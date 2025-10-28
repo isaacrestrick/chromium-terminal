@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chromium Terminal</title>
+  <link rel="stylesheet" href="terminal.css">
+</head>
+<body>
+  <div class="terminal-container">
+    <div class="terminal-header">
+      <div class="header-title">CHROMIUM TERMINAL v1.0.0</div>
+      <div class="header-subtitle">Bookmark Management System</div>
+    </div>
+    
+    <div class="terminal-output" id="output">
+      <div class="welcome-message">
+        <div class="ascii-art">
+  ╔═══════════════════════════════════════════════════════════╗
+  ║           CHROMIUM TERMINAL BOOKMARK MANAGER              ║
+  ╚═══════════════════════════════════════════════════════════╝
+        </div>
+        <div class="info-message">
+          Type <span class="command-hint">help</span> to see available commands
+        </div>
+      </div>
+    </div>
+
+    <div class="terminal-input-container">
+      <div class="prompt">❯</div>
+      <input 
+        type="text" 
+        class="terminal-input" 
+        id="input" 
+        placeholder="Enter command..."
+        autocomplete="off"
+        spellcheck="false"
+      >
+    </div>
+  </div>
+
+  <script src="terminal.js"></script>
+</body>
+</html>
+

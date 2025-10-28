@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Chromium Terminal",
+  "version": "1.0.0",
+  "description": "A sci-fi terminal interface for managing Chrome bookmarks programmatically",
+  "permissions": [
+    "bookmarks",
+    "tabs"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "Open Chromium Terminal"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
+
