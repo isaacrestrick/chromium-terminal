@@ -7,7 +7,7 @@ A sci-fi terminal interface for managing Chrome bookmarks programmatically. Clic
 
 ## Features
 
-- 🖥️ **Ghostty-Inspired UI** - Clean, modern terminal aesthetic with subtle colors and great typography
+- 🖥️ **Terminal UI** - Clean, modern terminal aesthetic with subtle colors and great typography
 - ⚡ **Fast & Intuitive** - Command-line interface for power users
 - 📚 **Full Bookmark Management** - List, add, delete, search, organize with folders
 - 🎨 **Large Input Box** - Comfortable typing experience
