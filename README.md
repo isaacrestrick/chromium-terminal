@@ -93,7 +93,7 @@ chromium-terminal/
 ├── manifest.json          # Extension configuration
 ├── background.js          # Service worker (handles icon clicks)
 ├── terminal.html          # Terminal UI
-├── terminal.css           # Ghostty-inspired styling
+├── terminal.css           # Styling
 ├── terminal.js            # Terminal logic and Bookmarks API
 ├── icons/                 # Extension icons
 │   ├── icon16.png
