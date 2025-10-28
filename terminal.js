@@ -241,9 +241,14 @@ class Terminal {
       return;
     }
 
-    const url = args[0];
+    let url = args[0];
     const title = args[1];
     const folderId = args[2] || '1'; // Default to Bookmarks Bar
+
+    // Add https:// if no protocol is specified
+    if (!url.match(/^[a-zA-Z]+:\/\//)) {
+      url = 'https://' + url;
+    }
 
     // Validate URL
     if (!this.isValidUrl(url)) {
