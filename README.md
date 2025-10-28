@@ -1,6 +1,6 @@
 # Chromium Terminal
 
-A sci-fi terminal interface for managing Chrome bookmarks programmatically. Click the extension icon to open a beautiful, Ghostty-inspired terminal that lets you manipulate your bookmarks using command-line style commands.
+A sci-fi terminal interface for managing Chrome bookmarks programmatically. Click the extension icon to open a beautiful, Terminal that lets you manipulate your bookmarks using command-line style commands.
 
 ![Chromium Terminal](https://img.shields.io/badge/Chrome-Extension-green)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
@@ -122,19 +122,6 @@ This extension requires the following permissions:
 - **bookmarks** - Read and modify your bookmarks
 - **tabs** - Open the terminal in a new tab
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-MIT License - feel free to use this project however you'd like!
-
-## Screenshots
-
-### Terminal Interface
-The clean, Ghostty-inspired terminal with large input box for comfortable typing.
-
 ### Command Examples
 ```
 ❯ help
@@ -144,21 +131,6 @@ The clean, Ghostty-inspired terminal with large input box for comfortable typing
 ❯ mkdir Development
 ❯ tree
 ```
-
-## Roadmap
-
-- [ ] Bookmark tagging system
-- [ ] Export/import bookmarks (JSON, HTML)
-- [ ] Undo/redo functionality
-- [ ] Bookmark metadata (date added, last modified)
-- [ ] Custom themes
-- [ ] Keyboard shortcuts
-- [ ] Fuzzy search
-
-## Credits
-
-- Inspired by [Ghostty](https://github.com/ghostty-org/ghostty) terminal emulator
-- Built with vanilla JavaScript and Chrome Extensions API
 
 ---
 
